@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Section from '../layout/Section';
-import Dashboard from '../ui/Dashboard';
+// import Dashboard from '../ui/Dashboard';
 
 // Declare the custom element type
 declare global {
@@ -55,24 +55,19 @@ const Dashboards: React.FC = () => {
         </p>
       </div>
       
-      <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="mt-16">
         <div className="card flex flex-col items-center text-center py-16 bg-neutral-50 border-2 border-dashed border-neutral-200">
           <h3 className="text-xl font-medium text-neutral-600 mb-2">Regional Pricing Analysis</h3>
           <div className="w-full h-[626px]">
             <TableauViz 
               id="tableau-viz" 
-              src="https://us-east-1.online.tableau.com/t/sxv220131-a1ede2bd9f/views/Trial/Sheet1" 
+              src="https://us-east-1.online.tableau.com/t/muhammadhanzalah-eb5baf9ae1/views/FinalDashboard/FinalDashboard" 
               width="100%" 
               height={626} 
               hideTabs 
               toolbar="bottom"
             />
           </div>
-        </div>
-        
-        <div className="card flex flex-col items-center text-center py-16 bg-neutral-50 border-2 border-dashed border-neutral-200">
-          <h3 className="text-xl font-medium text-neutral-600 mb-2">Insurance Coverage Insights</h3>
-          <p className="text-neutral-500">Coming Soon</p>
         </div>
       </div>
     </Section>
