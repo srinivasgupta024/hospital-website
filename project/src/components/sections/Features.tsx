@@ -11,7 +11,7 @@ const features = [
     icon: <BarChart2 size={28} />
   },
   {
-    title: "Comprehensive Price Comparisons",
+    title: "Smart Price Comparisons",
     description: "Compare prices for specific procedures across different hospitals and healthcare providers.",
     icon: <PieChart size={28} />
   },
@@ -41,7 +41,7 @@ const features = [
     icon: <Database size={28} />
   },
   {
-    title: "Advanced Search Capabilities",
+    title: "Quality Search",
     description: "Quickly find the specific information you need with powerful search and filtering options.",
     icon: <Search size={28} />
   }

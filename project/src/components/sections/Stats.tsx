@@ -8,13 +8,13 @@ const Stats: React.FC = () => {
   const stats = [
     {
       title: "Hospitals",
-      value: "5,000+",
-      description: "Healthcare facilities analyzed across the country",
+      value: "35+",
+      description: "Healthcare facilities analyzed across California",
       icon: <Building size={28} />
     },
     {
       title: "Procedures",
-      value: "12,000+",
+      value: "2,000+",
       description: "Medical procedures with transparent pricing information",
       icon: <Activity size={28} />
     },
@@ -26,7 +26,7 @@ const Stats: React.FC = () => {
     },
     {
       title: "Cost Savings",
-      value: "$2.5B",
+      value: "$600M",
       description: "Potential annual savings through price transparency",
       icon: <DollarSign size={28} />
     }
