@@ -61,7 +61,7 @@ const Dashboards: React.FC = () => {
           <div className="w-full h-[626px]">
             <TableauViz 
               id="tableau-viz" 
-              src="https://us-east-1.online.tableau.com/t/muhammadhanzalah-eb5baf9ae1/views/FinalDashboard/FinalDashboard" 
+              src="https://us-east-1.online.tableau.com/t/muhammadhanzalah-eb5baf9ae1/views/Updated/FinalDashboard" 
               width="100%" 
               height={626} 
               hideTabs 
